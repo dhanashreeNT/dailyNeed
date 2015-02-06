@@ -23,6 +23,10 @@ main/bootstrap.css: main/bootstrap-aca6f253c4c88730790e47e2c0d8bc5e.css
 main/bootstrap/index.css: main/bootstrap-aca6f253c4c88730790e47e2c0d8bc5e.css
 main/bootstrap.min.css: main/bootstrap.min-4889d2eb2c8948a55771613f7fc4da5e.css
 main/bootstrap/index.min.css: main/bootstrap.min-4889d2eb2c8948a55771613f7fc4da5e.css
+main/font-awesome/css/font-awesome.css: main/font-awesome/css/font-awesome-9fccc50272c0bbbf9c591c35172cf06c.css
+main/font-awesome/css/font-awesome/index.css: main/font-awesome/css/font-awesome-9fccc50272c0bbbf9c591c35172cf06c.css
+main/font-awesome/css/font-awesome.min.css: main/font-awesome/css/font-awesome.min-80a413d8b8c40a1935754a557ac2cc31.css
+main/font-awesome/css/font-awesome/index.min.css: main/font-awesome/css/font-awesome.min-80a413d8b8c40a1935754a557ac2cc31.css
 main/font-awesome/fonts/FontAwesome.otf: main/font-awesome/fonts/FontAwesome-189639d2167637c4b9d84385fe8dcc9b.otf
 main/font-awesome/fonts/FontAwesome/index.otf: main/font-awesome/fonts/FontAwesome-189639d2167637c4b9d84385fe8dcc9b.otf
 main/font-awesome/fonts/fontawesome-webfont.eot: main/font-awesome/fonts/fontawesome-webfont-3111f9ce607806e50e645780f82cf8d3.eot
