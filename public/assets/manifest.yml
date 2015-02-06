@@ -21,6 +21,8 @@ cbpAnimatedHeader.min.js: cbpAnimatedHeader.min-6cdc1332e7c4d9fcba6028805f75de6f
 cbpAnimatedHeader/index.min.js: cbpAnimatedHeader.min-6cdc1332e7c4d9fcba6028805f75de6f.js
 classie.js: classie-355b69ba837312e26f590fb6f36c6fbd.js
 classie/index.js: classie-355b69ba837312e26f590fb6f36c6fbd.js
+contact_me.js: contact_me-fa325a9fd02e11f46c479d0565051d96.js
+contact_me/index.js: contact_me-fa325a9fd02e11f46c479d0565051d96.js
 event_calendar.js: event_calendar-592338fa66ab5c1e2627f7a40ca1f572.js
 event_calendar/index.js: event_calendar-592338fa66ab5c1e2627f7a40ca1f572.js
 jqBootstrapValidation.js: jqBootstrapValidation-0c854470e424a09dbe51f244fd389513.js
