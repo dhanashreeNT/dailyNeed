@@ -1,0 +1,52 @@
+<!--Index -->
+<!-- Index -->
+<div class="page-header">
+  <h3>Types</h3>
+</div>
+<div class="bs-component well">
+	<%= simple_form_for(@daily_expense,:url => account_daily_expense_create_path,:html_options => {:class => "form-horizontal"}) do |f| %>
+	  <fieldset>
+	    <legend>Add Type</legend>
+	    <div class="form-group col-lg-6">
+	      <label for="inputEmail" class="col-lg-2 control-label">Name</label>
+	      <div class="col-lg-4">
+	      	 <%= f.input :name, :label =>false, required: true,  input_html: {class: 'form-control'}, :placeholder => "Type Name *" %>
+	      </div>
+	    </div>
+	    
+	    <div class="form-group col-lg-6">
+	      <div class="col-lg-4 col-lg-offset-2">
+	        <button type="submit" class="btn btn-primary">Add Type</button>
+	      </div>
+	    </div>
+	  </fieldset>
+	<% end %>
+</div>
+<div class="bs-component">
+	<table class="table table-striped table-hover ">
+	  <thead>
+	    <tr>
+	      <th>#</th>
+	      <th>Type Name</th>
+	      <th>Status</th>
+	      <th>Perform Action</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	  	<% @types.each do |type| %>
+		    <tr>
+		      <td><%= type.id %></td>
+		      <td><%= type.name %></td>
+		      <td><%= type.status %></td>
+		      <td>
+		      <% if type.is_unapprove? %>
+		         <%= link_to "Approve", account_type_change_status_path(:id=>type.id, :status=>"approve"), :class => "btn btn-success btn-sm",:method => "post" %>
+		      <% else %>
+		      	<%= link_to "Unapprove", account_type_change_status_path(:id=>type.id, :status=>"unapprove"), :class => "btn btn-danger btn-sm", :method => "post" %>
+		      <% end %>
+		      </td>
+		    </tr>
+		<% end %>
+	  </tbody>
+	</table> 
+</div>

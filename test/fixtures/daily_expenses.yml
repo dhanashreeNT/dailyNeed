@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  account: 
+  user: 
+  type: 
+  spent_by: 1
+  ammount: 1.5
+  note: MyString
+  spent_date: MyString
+
+two:
+  account: 
+  user: 
+  type: 
+  spent_by: 1
+  ammount: 1.5
+  note: MyString
+  spent_date: MyString

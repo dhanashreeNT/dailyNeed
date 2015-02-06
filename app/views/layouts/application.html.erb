@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DailyNeed</title>
+  <%= stylesheet_link_tag "application","bootstrap.min", "bootstrap" %>
+  
+  <%= javascript_include_tag "application", "bootstrap.min", "event_calendar" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<%= render "layouts/header" %>
+	<%= gflash %>
+	<div class="container">
+		<div class="bs-docs-section clearfix">
+			<div class="row">
+				<div class="col-lg-12">
+					<%= yield %>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
