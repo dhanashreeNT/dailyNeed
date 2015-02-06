@@ -1,0 +1,1 @@
+Rails.application.config.assets.precompile += ['main/agency.css', 'main/bootstrap.css', 'main/bootstrap.min.css']
