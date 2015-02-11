@@ -1,5 +1,6 @@
 class Accounts::DailyExpensesController < ApplicationController
 	def index
+		set_current_account
 		@daily_expenses = @current_account.daily_expenses
 		@daily_expense = DailyExpense.new
 	end
