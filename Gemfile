@@ -15,9 +15,7 @@ end
 gem 'simple_form'
 gem 'devise'
 gem "gritter", "1.1.0"
-gem 'event-calendar', :require => 'event_calendar'
-gem 'bootstrap-datepicker-rails', :require => 'bootstrap-datepicker-rails',
-                              :git => 'git://github.com/Nerian/bootstrap-datepicker-rails.git'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do

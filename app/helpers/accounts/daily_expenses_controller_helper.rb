@@ -1,0 +1,3 @@
+module Accounts::DailyExpensesControllerHelper
+  
+end

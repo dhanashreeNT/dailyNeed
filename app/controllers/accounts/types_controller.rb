@@ -1,6 +1,6 @@
 #controller tasks
 class Accounts::TypesController < ApplicationController
-	 
+	before_filter :assign_header_active
 	def index
 		set_current_account
 		@types = @current_account.types
@@ -40,4 +40,9 @@ class Accounts::TypesController < ApplicationController
 	def set_current_account
 		@current_account = current_user.get_account
 	end
+	def assign_header_active
+  		@dashboard_header = ""
+  		@type_header = "active"
+  		@dailyexpense_header = ""
+  	end
 end

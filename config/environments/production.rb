@@ -62,7 +62,7 @@ DailyNeed::Application.configure do
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
 
-  config.assets.precompile += %w( bootstrap.css bootstrap.min.css event_calendar.css main/agency.css main/bootstrap.css main/bootstrap.min.css main/font-awesome/css/font-awesome.min.css main/font-awesome/css/font-awesome.css agency.js bootstrap.js bootstrap.min.js cbpAnimatedHeader.js cbpAnimatedHeader.min.js classie.js event_calendar.js jqBootstrapValidation.js jquery.js contact_me.js)
+  config.assets.precompile += %w(datepicker.css bootstrap.css bootstrap.min.css event_calendar.css main/agency.css main/bootstrap.css main/bootstrap.min.css main/font-awesome/css/font-awesome.min.css main/font-awesome/css/font-awesome.css agency.js bootstrap.js bootstrap.min.js cbpAnimatedHeader.js cbpAnimatedHeader.min.js classie.js event_calendar.js jqBootstrapValidation.js jquery.js contact_me.js bootstrap-datepicker.js)
 
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)

@@ -46,7 +46,6 @@ GEM
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
     erubis (2.7.0)
-    event-calendar (2.3.3)
     execjs (2.2.2)
     gritter (1.1.0)
     hike (1.2.3)
@@ -124,7 +123,6 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   devise
-  event-calendar
   gritter (= 1.1.0)
   jquery-rails
   pg

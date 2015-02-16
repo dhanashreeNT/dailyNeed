@@ -9,9 +9,9 @@
   </div>
   <div class="navbar-collapse collapse navbar-inverse-collapse">
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Dashboard</a></li>
-      <li><a href="<%= account_types_path %>">Types</a></li>
-      <li><a href="<%= account_daily_expenses_path %>">Daily Expenses </a></li>
+      <li class="<%= @dashboard_header %>"><a href="<%= user_root_path %>">Dashboard</a></li>
+      <li class="<%= @type_header %>"><a href="<%= account_types_path %>">Types</a></li>
+      <li class="<%= @dailyexpense_header %>"><a href="<%= account_daily_expenses_path %>">Daily Expenses </a></li>
     </ul>
     <form class="navbar-form navbar-left">
       <input type="text" class="form-control col-lg-8" placeholder="Search">

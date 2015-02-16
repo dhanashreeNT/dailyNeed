@@ -1,12 +1,13 @@
 class DashboardsController < ApplicationController
-  
+  before_filtter :assign_header_active
   def index
-    @month = (params[:month] || (Time.zone || Time).now.month).to_i
-    @year = (params[:year] || (Time.zone || Time).now.year).to_i
-
-    @shown_month = Date.civil(@year, @month)
-
-    @event_strips = DailyExpense.event_strips_for_month(@shown_month)
+    
   end
-  
+  private
+  def assign_header_active
+  	logger.info "===============================Hello======================"
+  	@dashboard_header = "active"
+  	@task_header = ""
+  	@dailyexpense_header = ""
+  end
 end
