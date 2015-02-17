@@ -39,9 +39,9 @@
 		      <td><%= type.status %></td>
 		      <td>
 		      <% if type.is_unapprove? %>
-		         <%= link_to "Approve", account_type_change_status_path(:id=>type.id, :status=>"approve"), :class => "btn btn-success btn-sm",:method => "post" %>
+		         <%= link_to "Approve", account_type_change_status_path(:id=>type.id, :status=>"approved"), :class => "btn btn-success btn-sm",:method => "post" %>
 		      <% else %>
-		      	<%= link_to "Unapprove", account_type_change_status_path(:id=>type.id, :status=>"unapprove"), :class => "btn btn-danger btn-sm", :method => "post" %>
+		      	<%= link_to "Unapprove", account_type_change_status_path(:id=>type.id, :status=>"unapproved"), :class => "btn btn-danger btn-sm", :method => "post" %>
 		      <% end %>
 		      </td>
 		    </tr>

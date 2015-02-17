@@ -32,7 +32,7 @@
 		   <div class="col-lg-6">
 		      <label for="inputEmail" class="col-lg-2 control-label">Spent By</label>
 		      <div class="col-lg-6">
-		      	 <%= f.input :spent_by, :label =>false, required: true,  :collection=> @users.map{ |p| ["#{p.email} #{p.last_name}", p.id,]},:input_html => {:class => 'form-control'}, :prompt => "Select Spent By" %>
+		      	 <%= f.input :spent_by, :label =>false, required: true, :collection=> @users.map{ |p| [p.email, p.id,]},:prompt => @current_user ? @current_user.email : "Select Spent By",:input_html => {:class => 'form-control'} %>
 		      </div>
 		   </div>
 	    </div>

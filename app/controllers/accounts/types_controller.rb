@@ -25,7 +25,7 @@ class Accounts::TypesController < ApplicationController
 	end
 
 	def change_status
-		@status = params[:status] || 'approve'
+		@status = params[:status] || 'approved'
 	    @type = Type.find_by_id(params[:id])
 	    @type.status = @status
 	    if @type.save
