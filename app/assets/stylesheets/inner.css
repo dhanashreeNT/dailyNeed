@@ -1,0 +1,12 @@
+/* Inner css file
+
+*= require gritter
+*= require "bootstrap"
+*= require "datepicker"
+*= require "sb-admin-2"
+*= require_tree ./less
+*= require_tree ./fonts
+*= require_tree ./font-awesome-4.1.0
+*= require_tree ./plugins
+
+*/

@@ -12,4 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require bootstrap.min
 //= require gritter
+//= require bootstrap-datepicker
+//= require_tree ./plugins/dataTables

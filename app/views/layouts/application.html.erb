@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>DailyNeed</title>
-  <%= stylesheet_link_tag "application","bootstrap.min", "bootstrap", "datepicker" %>
-  
-  <%= javascript_include_tag "application", "bootstrap.min", "bootstrap-datepicker"%>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-	<%= render "layouts/header" %>
-	<%= gflash %>
-	<div class="container">
-		<div class="bs-docs-section clearfix">
-			<div class="row">
-				<div class="col-lg-12">
+	<head>
+	  <title>DailyNeed</title>
+	  <%= stylesheet_link_tag "inner" %>
+	  
+	  <%= javascript_include_tag "application" %>
+	  <%= csrf_meta_tags %>
+	</head>
+	<body>
+		<div id="wrapper">
+			<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+				<%= render "layouts/inner_header" %>
+				<%= render "layouts/inner_sidebar" %>
+			</nav>
+			<div id="page-wrapper">
+	            <div class="container-fluid">
+					<%= gflash %>
 					<%= yield %>
 				</div>
 			</div>
-		</div>
-	</div>
-</body>
+		</div><!-- /#wrapper -->
+	</body>
 </html>

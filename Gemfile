@@ -15,6 +15,9 @@ end
 gem 'simple_form'
 gem 'devise'
 gem "gritter", "1.1.0"
+gem 'jquery-datatables-rails', '~> 3.1.1'
+gem 'therubyracer' # Ruby
+gem 'less-rails'
 
 # Gems used only for assets and not required
 # in production environments by default.

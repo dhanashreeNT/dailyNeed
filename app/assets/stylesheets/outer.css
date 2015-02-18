@@ -1,0 +1,9 @@
+/* Outer css file
+
+Used for giving style to outer design
+*= require gritter
+*= require "main/bootstrap.min"
+*= require "main/agency"
+*= require "main/font-awesome/css/font-awesome.min"
+
+*/
