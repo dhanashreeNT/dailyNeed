@@ -62,7 +62,7 @@ DailyNeed::Application.configure do
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
 
-  config.assets.precompile += %w(inner.css outer.css application.css application.js agency.js bootstrap.js cbpAnimatedHeader.js cbpAnimatedHeader.min.js classie.js jqBootstrapValidation.js contact_me.js)
+  config.assets.precompile += %w(inner.css outer.css application.css application.js agency.js bootstrap.js cbpAnimatedHeader.js cbpAnimatedHeader.min.js classie.js jqBootstrapValidation.js contact_me.js jquery.js)
 
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)

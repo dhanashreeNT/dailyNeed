@@ -23,6 +23,8 @@ contact_me.js: contact_me-a4cc9493f547c8235627e8dc2086dd4e.js
 contact_me/index.js: contact_me-a4cc9493f547c8235627e8dc2086dd4e.js
 jqBootstrapValidation.js: jqBootstrapValidation-b998b212b2883a2a70145209e25ae6a3.js
 jqBootstrapValidation/index.js: jqBootstrapValidation-b998b212b2883a2a70145209e25ae6a3.js
+jquery.js: jquery-511471a6e96f386ca8821f99b2d49a82.js
+jquery/index.js: jquery-511471a6e96f386ca8821f99b2d49a82.js
 application.css: application-31e4796e8118c97a316ab864f3330395.css
 application/index.css: application-31e4796e8118c97a316ab864f3330395.css
 bootstrap.css: bootstrap-fd00baa461946752c284737213a611ed.css
